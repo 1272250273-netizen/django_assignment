@@ -1,0 +1,6 @@
+.modal-image { min-height: 390px; }
+.modal-close { position: absolute; z-index: 2; top: 14px; right: 18px; }
+.watchlist { transition: border-color .2s, color .2s, background .2s; }
+.modal-buttons .watchlist { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 40px; padding: 0; line-height: 1; }
+.watchlist.saved { border-color: #18a8e8 !important; color: #07111f; background: #18a8e8; }
+@media (max-width: 700px) { .modal-image { min-height: 215px; } }
